@@ -1,8 +1,8 @@
 # Python Data Analysis Foundations
 
-Python implementation of a first-semester data-analysis coursework block originally developed in R.
+In this repository I reworked a first-semester data-analysis coursework block that I originally developed in R.
 
-The repository is intentionally lightweight in the public portfolio: it documents the type of work carried out in the course without trying to turn introductory material into a flagship project. The focus is on the fundamentals that matter in real analysis workflows:
+I keep this repository intentionally lightweight in the public portfolio: it documents the kind of work I carried out in the course without trying to turn introductory material into a flagship project. The focus is on the fundamentals that matter in real analysis workflows:
 
 - loading and cleaning tabular datasets;
 - identifying and correcting problematic values;
@@ -13,7 +13,7 @@ The repository is intentionally lightweight in the public portfolio: it document
 
 ## Scope
 
-The repository is built around two case studies:
+I build the repository around two case studies:
 
 1. `Sleep-study workflow`
    - data review;
@@ -28,7 +28,7 @@ The repository is built around two case studies:
    - distribution plots;
    - hypothesis testing with a categorical factor.
 
-The original coursework was written in R Markdown. Here the same analytical flow is presented in Python so it sits naturally alongside the rest of the portfolio.
+The original coursework was written in R Markdown. Here I present the same analytical flow in Python so it sits naturally alongside the rest of the portfolio.
 
 ## Repository structure
 
@@ -53,11 +53,11 @@ The original coursework was written in R Markdown. Here the same analytical flow
 
 - the sleep-study case shows how a compact workflow can move from cleaning and imputation into interpretable statistical testing;
 - the Toyota case gives a clean example of variable transformation, exploratory plotting and a simple group-comparison contrast;
-- the repository keeps the code readable and reproducible without shipping the original local coursework data files.
+- I keep the code readable and reproducible without shipping the original local coursework data files.
 
 ## How to regenerate the public figures
 
-The repository does not include the original coursework datasets. To regenerate the figures locally, provide the paths through environment variables:
+I do not include the original coursework datasets here. To regenerate the figures locally, provide the paths through environment variables:
 
 - `SLEEP_STUDY_SOURCE`
 - `TOYOTA_SOURCE`
@@ -72,7 +72,7 @@ python src/build_summary_panel.py
 
 ## Data availability
 
-The original source files used in the course are not redistributed here. The repository keeps:
+I do not redistribute the original source files used in the course here. Instead, I keep:
 
 - the translated Python code;
 - public-safe figures;
@@ -80,4 +80,4 @@ The original source files used in the course are not redistributed here. The rep
 
 ## Why this repository is included
 
-This is not meant to be one of the headline portfolio pieces. Its role is to show a solid base in practical data analysis: cleaning, transformation, imputation, exploratory plots and statistical reasoning.
+This is not one of the headline portfolio pieces. I include it to show a solid base in practical data analysis: cleaning, transformation, imputation, exploratory plots and statistical reasoning.
